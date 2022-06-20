@@ -1,8 +1,30 @@
+import useScreenSize from "./../Hooks/useScreenSize";
+
 export default function Image() {
-  return (
+  const { mobileView, width } = useScreenSize();
+  const mobilePic = (
     <img
       id="background_img"
-      src="https://mail.google.com/mail/u/0?ui=2&ik=083f79774b&attid=0.1.1&permmsgid=msg-f:1736077326280469741&th=1817c9214f8eaced&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ_NJ-XvjgRHjHbGmQrEoNdYs4Ex4Dbda_E1fKkttc3-j291i0fz3JRfrzxBdaZxrlRuHGx0lEFHbL2CCP1ntskDB49OyLtERU3PNE5GAHOnz3OgI24zqyeJmAo&disp=emb"
+      src="https://i.ibb.co/4Mz732B/Mobile-Blue-Edge.jpg"
       alt="img"></img>
+  );
+
+  const tabletPic = (
+    <img
+      id="background_img"
+      src="https://i.ibb.co/7GjccgV/F06-D0334-C013-4171-ABC0-B5273-D4-C6954-1.jpg"
+      alt="img"></img>
+  );
+  const desktopPic = (
+    <img
+      id="background_img"
+      src="https://i.ibb.co/zNBSctX/narrow.jpg"
+      alt="img"></img>
+  );
+
+  return (
+    <div>
+      {width <= 700 ? mobilePic : width < 1000 ? tabletPic : desktopPic}
+    </div>
   );
 }
