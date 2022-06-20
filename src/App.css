@@ -1,5 +1,10 @@
+htmnl,
 body {
   background-color: rgba(4, 0, 48, 1);
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
 }
 
 .App {
@@ -10,10 +15,11 @@ body {
 
 #mainText {
   margin: 1.5rem;
+  grid-area: mainText;
 }
 #background_img {
-  height: 350px;
-  max-width: 350;
+  height: auto;
+  width: 100%;
 }
 
 #Hello-txt {
@@ -83,7 +89,6 @@ body {
 .twoSmallBTS {
   display: flex;
   justify-content: space-evenly;
-  font-size: 15px;
   margin-bottom: 10px;
   align-items: center;
   grid-area: twoSmallBTS;
@@ -100,6 +105,8 @@ body {
     "twoSmallBTS"
     "bigBT";
   text-align: center;
+  grid-area: outer;
+  margin-top: 5%;
 }
 
 #about_me {
@@ -127,9 +134,11 @@ footer {
   color: white;
   font-family: "Poppins", sans-serif;
   font-weight: 250;
-  margin-top: 120px;
-  margin-left: 1.5rem;
-  font-size: 10px;
+  margin-left: 1rem;
+  font-size: 12px;
+  grid-area: footer;
+  position: absolute;
+  bottom: 10px;
 }
 
 #contact_details {
@@ -138,4 +147,163 @@ footer {
 
 #CV {
   margin: 0;
+}
+
+@media (max-width: 375px) {
+  #mainText {
+    margin-top: 0px;
+    margin-bottom: 11px;
+  }
+
+  #Hello-txt {
+    font-size: 28px;
+  }
+
+  #Junior-txt {
+    font-size: 23px;
+  }
+
+  #SD-txt {
+    font-size: 18px;
+  }
+  #description-txt {
+    font-size: 13px;
+  }
+
+  .button_slide {
+    border: 2px solid rgba(80, 144, 127, 1);
+    padding: 0.2rem;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+  }
+  .twoSmallBTS {
+    margin-bottom: -4px;
+  }
+
+  #about_me {
+    width: 90px;
+    margin-left: 4px;
+  }
+
+  #see_my_work {
+    width: 90px;
+    margin-right: 4px;
+  }
+
+  #contact_me {
+    width: 200px;
+    margin: 0px;
+  }
+
+  #outer {
+    margin-top: 0px;
+  }
+
+  footer {
+    font-size: 11px;
+  }
+}
+
+@media (min-width: 700px) {
+  #Hello-txt {
+    font-size: 38px;
+  }
+
+  #Junior-txt {
+    font-size: 33px;
+  }
+
+  #SD-txt {
+    font-size: 28px;
+  }
+  .button_slide {
+    border: 2.5px solid rgba(80, 144, 127, 1);
+    padding: 0.6rem;
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+  #about_me {
+    width: 120px;
+  }
+
+  #see_my_work {
+    width: 120px;
+  }
+
+  #contact_me {
+    width: 275px;
+  }
+
+  #outer {
+    margin-top: 12px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .App {
+    display: grid;
+    grid-template-areas:
+      "mainText background_img"
+      "outer background_img"
+      "footer background_img";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 40% 10%;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  #background_img {
+    height: 100vh;
+    width: auto;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+  }
+
+  #mainText {
+    margin-top: 30%;
+    margin-bottom: 0;
+    height: 0px;
+  }
+  #outer {
+    margin-left: 10%;
+    margin-top: 30%;
+  }
+
+  #Hello-txt {
+    font-size: 35px;
+  }
+
+  #Junior-txt {
+    font-size: 30px;
+  }
+
+  #SD-txt {
+    font-size: 26px;
+  }
+
+  #description-txt {
+    font-size: 13px;
+    margin-right: 30%;
+    width: 260px;
+  }
+
+  .button_slide {
+    border: 2.5px solid rgba(80, 144, 127, 1);
+    padding: 0.4rem;
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+  #about_me {
+    width: 110px;
+  }
+
+  #see_my_work {
+    width: 110px;
+  }
+
+  #contact_me {
+    width: 255px;
+  }
 }
