@@ -151,3 +151,117 @@ header {
 .right {
   left: 0%;
 }
+
+@media (max-width: 360px) {
+  p {
+    font-size: 9.5px;
+  }
+  h2 {
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+    font-size: 15px;
+  }
+  .container {
+    width: 220px;
+    height: 190px;
+  }
+}
+
+@media (min-width: 700px) {
+  p {
+    font-size: 13px;
+  }
+  h2 {
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+    font-size: 20px;
+  }
+  header {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 30px;
+  }
+
+  /* The actual timeline (the vertical ruler) */
+  .timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  /* The actual timeline (the vertical ruler) */
+  .timeline::after {
+    content: "";
+    position: absolute;
+    width: 6px;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+  }
+
+  /* Container around content */
+  .container {
+    padding: 10px 40px;
+    position: relative;
+    width: 40%;
+  }
+
+  /* The circles on the timeline */
+  .container::after {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -10px;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+
+  /* Place the container to the left */
+  .left {
+    left: -3px;
+  }
+
+  /* Place the container to the right */
+  .right {
+    left: 50%;
+  }
+
+  /* Add arrows to the left container (pointing right) */
+  .left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 378px;
+    border: medium solid rgba(80, 144, 127, 1);
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent rgba(80, 144, 127, 1);
+  }
+
+  /* Add arrows to the right container (pointing left) */
+  .right::before {
+    position: absolute;
+    left: 40px;
+  }
+
+  /* Fix the circle for containers on the right side */
+  .right::after {
+    left: -16px;
+  }
+  /* Fix the circle for containers on the right side */
+  .left::after {
+    left: 398px;
+  }
+
+  /* The actual content */
+  .content {
+    padding: 20px 30px;
+    position: relative;
+  }
+}
