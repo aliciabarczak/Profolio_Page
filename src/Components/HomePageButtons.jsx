@@ -1,19 +1,15 @@
-import { Link } from "react-router-dom";
 export default function HomePageButtons() {
   return (
-    <div id="outer">
+    <div id="HomePageButtons">
       <div className="twoSmallBTS">
         <div className="button_slide slide_down" id="see_my_work">
           See my work
         </div>
         <br /> <br />
         <br />
-        <Link
-          to={"/aboutme"}
-          className="button_slide slide_right"
-          id="about_me">
-          About me
-        </Link>
+        <div to={"/aboutme"} className="button_slide slide_right" id="about_me">
+          About mey
+        </div>
         <br /> <br />
         <br />
       </div>

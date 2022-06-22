@@ -1,13 +1,14 @@
 import "./../Styling/AboutMe.css";
+import "./../Styling/ScrollButton.css";
 export default function AboutMePage() {
   return (
-    <div id="AboutMe">
+    <div id="AboutMePage">
       <header>
         <h1 class="decorated">
           <span>About me</span>
         </h1>
       </header>
-      <div class="timeline">
+      <section class="timeline">
         <div class="container left">
           <div class="content">
             <h2>2017</h2>
@@ -74,7 +75,12 @@ export default function AboutMePage() {
             </p>
           </div>
         </div>
-      </div>
+        <div id="scrollButton2" class="ScrollButtons">
+          <a href="#">
+            <span></span>
+          </a>
+        </div>
+      </section>
     </div>
   );
 }

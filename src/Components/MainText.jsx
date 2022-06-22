@@ -5,7 +5,9 @@ export default function () {
       <h1 id="Junior-txt"> I‘m a junior front-end </h1>
       <h1 id="SD-txt">Software Developer.</h1>
       <h2 id="description-txt">
-        My name is Alicia and I bla bla bla bla bla bla bla bla bla bla bla bla
+        Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum
+        perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret
+        expetendis his.
       </h2>
     </header>
   );

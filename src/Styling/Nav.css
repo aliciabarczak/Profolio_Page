@@ -1,0 +1,17 @@
+#Nav {
+  width: 100%;
+}
+
+#NavTxt {
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-size: 13px;
+  list-style: none;
+}
+
+.NavLink {
+  margin-right: -120px;
+}

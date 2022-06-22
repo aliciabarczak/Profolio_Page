@@ -1,13 +1,19 @@
 import Image from "./Image";
 import MainText from "./MainText";
 import HomePageButtons from "./HomePageButtons";
+import "./../Styling/ScrollButton.css";
 
 export default function Homepage() {
   return (
     <>
       <Image />
       <MainText />
-      <HomePageButtons />
+      <div id="scrollButton" class="ScrollButtons">
+        <a href="#AboutMePage">
+          <span></span>
+        </a>
+      </div>
+      {/* <HomePageButtons /> */}
     </>
   );
 }
