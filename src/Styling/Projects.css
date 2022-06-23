@@ -8,8 +8,8 @@
   font-size: 13px;
   border: 1px solid white;
   padding: 0.5rem;
-  margin-left: 28px;
-  margin-right: 28px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 .projects {
   padding: 0;
@@ -61,5 +61,11 @@
   color: #ffffff;
   font-weight: bold;
   width: 85%;
-  border: 0.5px solid rgba(80, 144, 127, 1);
+  border: 0.5px solid rgb(108, 200, 175);
+}
+
+.miniNavLink:hover {
+  color: rgb(108, 200, 175);
+  text-decoration: underline;
+  font-weight: 300;
 }

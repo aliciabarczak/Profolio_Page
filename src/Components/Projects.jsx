@@ -3,9 +3,9 @@ export default function () {
   return (
     <>
       <div id="miniNav">
-        <div>Balance Book</div>
-        <div>NC News</div>
-        <div>React App</div>
+        <div className="miniNavLink">Balance Book</div>
+        <div className="miniNavLink">NC News</div>
+        <div className="miniNavLink">React App</div>
       </div>
       <div className="projects">
         <div id="Project1">
