@@ -39,12 +39,11 @@ section {
 }
 
 #Junior-txt {
-  color: white;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   margin: 0;
   font-size: 29px;
-  color: rgba(80, 144, 127, 1);
+  color: rgb(83, 152, 133);
 }
 
 #SD-txt {
@@ -65,33 +64,33 @@ section {
   font-size: 16px;
 }
 
-.button_slide {
+/* .button_slide {
   color: rgb(103, 192, 168);
-  border: 2px solid rgba(80, 144, 127, 1);
+  border: 2px solid rgb(108, 200, 175);
   border-radius: 10px;
   padding: 0.5rem;
   font-family: "Lucida Console", Monaco, monospace;
   font-size: 12px;
   letter-spacing: 1px;
   cursor: pointer;
-  box-shadow: inset 0 0 0 0 rgba(80, 144, 127, 1);
+  box-shadow: inset 0 0 0 0 rgb(108, 200, 175);
   -webkit-transition: ease-out 0.4s;
   -moz-transition: ease-out 0.4s;
   transition: ease-out 0.4s;
-}
-
+} */
+/* 
 .slide_down:hover {
-  box-shadow: inset 0 100px 0 0 rgba(80, 144, 127, 1);
+  box-shadow: inset 0 100px 0 0 rgb(108, 200, 175);
   color: white;
 }
 
 .slide_right:hover {
-  box-shadow: inset 200px 0 0 0 rgba(80, 144, 127, 1);
+  box-shadow: inset 200px 0 0 0 rgb(108, 200, 175);
   color: white;
-}
+} */
 
-.slide_left:hover {
-  box-shadow: inset 0 0 0 200px rgba(80, 144, 127, 1);
+/* .slide_left:hover {
+  box-shadow: inset 0 0 0 200px rgb(108, 200, 175);
   color: white;
 }
 
@@ -105,9 +104,9 @@ section {
 
 .bigBT {
   grid-area: bigBT;
-}
+} */
 
-#HomePageButtons {
+/* #HomePageButtons {
   margin: auto;
   display: grid;
   grid-template:
@@ -118,16 +117,16 @@ section {
   margin-top: 5%;
   margin-left: 25%;
   margin-bottom: 40%;
-}
+} */
 
-#about_me {
+/* #about_me {
   width: 100px;
   margin-left: 8px;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   grid-area: about_me;
-}
-
+} */
+/* 
 #see_my_work {
   width: 100px;
   margin-right: 8px;
@@ -142,9 +141,9 @@ section {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   grid-area: contact_me;
-}
+} */
 
-footer {
+/* footer {
   color: white;
   font-family: "Poppins", sans-serif;
   font-weight: 250;
@@ -153,7 +152,7 @@ footer {
   grid-area: footer;
   position: absolute;
   bottom: 10px;
-}
+} */
 
 #contact_details {
   margin: 0;
@@ -185,7 +184,7 @@ footer {
   }
 
   .button_slide {
-    border: 2px solid rgba(80, 144, 127, 1);
+    border: 2px solid rgb(108, 200, 175);
     padding: 0.2rem;
     font-size: 11px;
     letter-spacing: 0.5px;
@@ -241,7 +240,7 @@ footer {
   }
 
   /* .button_slide {
-    border: 2.5px solid rgba(80, 144, 127, 1);
+    border: 2.5px solid rgb(108, 200, 175);
     padding: 0.6rem;
     font-size: 14px;
     letter-spacing: 1px;
@@ -319,7 +318,7 @@ footer {
   }
 
   /* .button_slide {
-    border: 2.5px solid rgba(80, 144, 127, 1);
+    border: 2.5px solid rgb(108, 200, 175);
     padding: 0.4rem;
     font-size: 12px;
     letter-spacing: 1px;
