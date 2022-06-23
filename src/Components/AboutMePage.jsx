@@ -29,7 +29,7 @@ export default function AboutMePage() {
           </div>
         </div>
         <div class="container right">
-          <div class="content" data-aos="fade-left">
+          <div class="content" data-aos="fade-right">
             <h2>2016</h2>
             <p>
               Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec
@@ -51,7 +51,7 @@ export default function AboutMePage() {
           </div>
         </div>
         <div class="container right">
-          <div class="content" data-aos="fade-left">
+          <div class="content" data-aos="fade-right">
             <h2>2012</h2>
             <p>
               Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec
@@ -73,7 +73,7 @@ export default function AboutMePage() {
           </div>
         </div>
         <div class="container right">
-          <div class="content" data-aos="fade-left">
+          <div class="content" data-aos="fade-right">
             <h2>2007</h2>
             <p>
               Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec
