@@ -1,0 +1,13 @@
+#miniNav {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-size: 13px;
+  border: 1px solid white;
+  padding: 0.5rem;
+  margin-left: 35px;
+  margin-right: 35px;
+}
