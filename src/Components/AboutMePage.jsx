@@ -1,6 +1,14 @@
 import "./../Styling/AboutMe.css";
 import "./../Styling/ScrollButton.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
 export default function AboutMePage() {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
+
   return (
     <div id="AboutMePage">
       <header>
@@ -10,7 +18,7 @@ export default function AboutMePage() {
       </header>
       <section class="timeline">
         <div class="container left">
-          <div class="content">
+          <div class="content" data-aos="fade-right">
             <h2>2017</h2>
             <p>
               Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec
@@ -21,7 +29,7 @@ export default function AboutMePage() {
           </div>
         </div>
         <div class="container right">
-          <div class="content">
+          <div class="content" data-aos="fade-left">
             <h2>2016</h2>
             <p>
               Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec
@@ -32,7 +40,7 @@ export default function AboutMePage() {
           </div>
         </div>
         <div class="container left">
-          <div class="content">
+          <div class="content" data-aos="fade-right">
             <h2>2015</h2>
             <p>
               Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec
@@ -43,7 +51,7 @@ export default function AboutMePage() {
           </div>
         </div>
         <div class="container right">
-          <div class="content">
+          <div class="content" data-aos="fade-left">
             <h2>2012</h2>
             <p>
               Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec
@@ -54,7 +62,7 @@ export default function AboutMePage() {
           </div>
         </div>
         <div class="container left">
-          <div class="content">
+          <div class="content" data-aos="fade-right">
             <h2>2011</h2>
             <p>
               Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec
@@ -65,7 +73,7 @@ export default function AboutMePage() {
           </div>
         </div>
         <div class="container right">
-          <div class="content">
+          <div class="content" data-aos="fade-left">
             <h2>2007</h2>
             <p>
               Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec
