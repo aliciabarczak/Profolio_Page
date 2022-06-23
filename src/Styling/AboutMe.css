@@ -5,6 +5,7 @@
 #AboutMePage {
   width: 100vw;
   height: 100%;
+  padding: 5rem;
 }
 
 .timeline p {
@@ -72,7 +73,7 @@ header {
 .timeline::after {
   content: "";
   position: absolute;
-  width: 6px;
+  width: 2px;
   background-color: rgb(103, 192, 168);
   top: 0;
   bottom: 0;
@@ -94,9 +95,9 @@ header {
   position: absolute;
   width: 15px;
   height: 15px;
-  right: -12px;
+  right: -8px;
   background-color: rgb(103, 192, 168);
-  border: 4px solid white;
+  border: 2px solid white;
   top: 15px;
   border-radius: 50%;
   z-index: 1;
@@ -154,12 +155,33 @@ header {
   background-color: #021f4f;
   position: relative;
   border-radius: 6px;
-  border: solid rgba(80, 144, 127, 1);
+  border: 2px solid rgba(80, 144, 127, 1);
   border-radius: 15px;
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
+  #AboutMePage {
+    width: 100vw;
+    height: 100%;
+    padding: 2rem;
+  }
+  .timeline p {
+    font-size: 9px;
+  }
+
+  .timeline h2 {
+    font-size: 14px;
+  }
+
+  header {
+    margin-bottom: 3rem;
+    margin-left: -0rem;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
   /* Place the timelime to the left */
   .timeline {
     margin-left: 30px;

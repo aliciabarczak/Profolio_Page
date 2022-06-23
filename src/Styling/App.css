@@ -23,7 +23,6 @@ section {
 
 #mainText {
   margin: 3rem;
-
   grid-area: mainText;
 }
 #background_img {
