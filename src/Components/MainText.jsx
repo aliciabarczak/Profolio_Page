@@ -1,6 +1,13 @@
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 export default function () {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
+
   return (
-    <header id="mainText">
+    <header id="mainText" data-aos="fade-right">
       <h1 id="Hello-txt">Hello.</h1>
       <h1 id="Junior-txt"> I‘m a junior front-end </h1>
       <h1 id="SD-txt">Software Developer.</h1>
