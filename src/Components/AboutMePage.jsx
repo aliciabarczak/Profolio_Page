@@ -84,7 +84,7 @@ export default function AboutMePage() {
           </div>
         </div>
         <div id="scrollButton2" class="ScrollButtons">
-          <a href="#">
+          <a href="#ProjectsPage">
             <span></span>
           </a>
         </div>
