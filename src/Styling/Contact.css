@@ -1,0 +1,26 @@
+#ContactPage{
+    display: flex;
+    flex-direction: column;
+}
+
+.contactBox{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contactBox img {
+    width: 100px;
+    height: auto;
+    padding: 1rem;
+    margin-left: 18%;
+
+}
+
+.contactBox p {
+    color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-size: 13px;
+  padding: 1rem;
+}
