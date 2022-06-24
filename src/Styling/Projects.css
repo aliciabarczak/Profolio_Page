@@ -8,14 +8,24 @@
   font-size: 13px;
   border: 1px solid white;
   padding: 0.5rem;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 .projects {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
+
+.title {
+  margin: 30px;
+}
+
+#ProjectsPage {
+  width: 100vw;
+  height: 100%;
+}
+
 #Project3,
 #Project2,
 #Project1 {
@@ -38,7 +48,7 @@
   margin-left: -50px;
   margin-top: 50px;
   width: 90%;
-  height: 550px;
+  height: 500px;
   border: 0.5px solid rgba(255, 255, 255, 0.09);
 }
 
@@ -55,19 +65,27 @@
 #backgroundBox {
   position: absolute;
   margin-top: 30px;
-  left: 35px;
+  left: 42px;
   top: -5px;
   z-index: 1000;
-  padding: 1.4rem;
-
+  padding: 1rem;
+  padding-bottom: 3rem;
   color: #ffffff;
   font-weight: bold;
   width: 85%;
-  border: 0.5px solid rgb(108, 200, 175);
+}
+.default {
+  color: rgb(108, 200, 175);
+  text-decoration: underline;
+  font-weight: 300;
 }
 
 .miniNavLink:hover {
   color: rgb(108, 200, 175);
   text-decoration: underline;
   font-weight: 300;
+}
+
+#scrollButton3 {
+  margin-top: 700px;
 }

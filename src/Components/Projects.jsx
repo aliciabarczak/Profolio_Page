@@ -13,23 +13,28 @@ export default function () {
   }, []);
 
   return (
-    <>
+    <div id="ProjectsPage">
+      <header>
+        <h1 class="decorated title">
+          <span>Profolio</span>
+        </h1>
+      </header>
       <div id="miniNav">
         <div
-          className="miniNavLink"
+          className={selectProject1 ? "miniNavLink default" : "miniNavLink" }
           onMouseEnter={() => setSelectProject1(true)}
           onMouseLeave={() => setSelectProject1(false)}>
           Balance Book
         </div>
         <div
           className="miniNavLink"
-          onMouseEnter={() => setSelectProject2(true)}
+          onMouseEnter={() => {setSelectProject1(false); setSelectProject2(true)}}
           onMouseLeave={() => setSelectProject2(false)}>
           NC News
         </div>
         <div
           className="miniNavLink"
-          onMouseEnter={() => setSelectProject3(true)}
+          onMouseEnter={() => {setSelectProject1(false); setSelectProject3(true); }}
           onMouseLeave={() => setSelectProject3(false)}>
           React App
         </div>
@@ -54,7 +59,10 @@ export default function () {
                   habeo iusto primis ea eam. Lorem ipsum dolor sit amet, quo ei
                   simul congue exerci, ad nec admodum perfecto mnesarchum, vim
                   ea mazim fierent detracto. Ea quis iuvaret expetendis his, te
-                  elit voluptua dignissim per, habeo iusto primis ea eam.
+                  elit voluptua dignissim per, habeo iusto primis ea eam. Lorem
+                  ipsum dolor sit amet, quo ei simul congue exerci, ad nec
+                  admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea
+                  quis iuvaret expetendis his, te elit voluptua dignissim per,
                 </p>
               </div>
             </div>
@@ -80,7 +88,9 @@ export default function () {
                   project 2 description, project 2 description, project 2
                   description, project 2 description, project 2 description,
                   project 2 description, project 2 description, project 2
-                  description...
+                  description... Lorem ipsum dolor sit amet, quo ei simul congue
+                  exerci, ad nec admodum perfecto mnesarchum, vim ea mazim
+                  fierent detracto. Ea quis iuvaret expetendis his, te elit
                 </p>
               </div>
             </div>
@@ -107,12 +117,20 @@ export default function () {
                   description, project 3 description, project 3 description,
                   project 3 description, project 3 description, project 3
                   description, project 3 description, project 3 description,
+                  Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec
+                  admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea
+                  quis iuvaret expetendis his, te elit voluptua dignissim per,
                 </p>
               </div>
             </div>
           </div>
         ) : null}
       </div>
-    </>
+      <div id="scrollButton3" class="ScrollButtons">
+        <a href="#">
+          <span></span>
+        </a>
+      </div>
+    </div>
   );
 }
