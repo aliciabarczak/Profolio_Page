@@ -5,6 +5,7 @@ import Homepage from "./Components/Homepage";
 import Nav from "./Components/Nav";
 import Projects from "./Components/Projects";
 import Blogs from "./Components/Blogs"
+import Contact from "./Components/Contact"
 
 function App() {
   return (
@@ -21,8 +22,8 @@ function App() {
           <Projects />
         </section>
      <section><Blogs /></section>
+     <section><Contact /></section>
       </main>
-
       {/* <Footer /> */}
     </div>
   );
