@@ -1,3 +1,35 @@
 #BlogsHeader{
     margin-left: 2rem;
 }
+
+#BlogPage{
+    display: flex;
+    flex-direction: column;
+}
+.blogBox{
+    width: 300px;
+    height: auto;
+    padding: 1rem;
+    margin: auto;
+}
+
+
+.blogImg{
+    width: 250px;
+    height: auto;
+}
+
+.blogBox p {
+    color: grey;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-size: 13px;
+}
+
+#filter {
+    width: 250px;
+    height: 168px;
+    position: absolute;
+    margin: auto;
+    background-color:  rgba(4, 0, 48, 0.9);
+  }
