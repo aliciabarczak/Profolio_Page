@@ -18,6 +18,13 @@ export default function Contact() {
         <img src="https://i.ibb.co/z4G8Bcq/email-14-128.png"/>
         <p>aliciabarczak1@gmail.com</p>
         </div>
+        <div className="CVButton">
+        <div className="button_slide slide_left" id="CVBtn">
+          <p>Download my CV</p>
+          <br /> <br />
+          <br />
+        </div>
+      </div>
     </div>)
 }
 
