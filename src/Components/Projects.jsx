@@ -9,7 +9,7 @@ export default function () {
   const [selectProject3, setSelectProject3] = useState(false);
 
   useEffect(() => {
-    Aos.init({ duration: 500 });
+    Aos.init({ duration: 1000 });
   }, []);
 
   return (
@@ -21,21 +21,30 @@ export default function () {
       </header>
       <div id="miniNav">
         <div
-          className={selectProject1 ? "miniNavLink default" : "miniNavLink" }
-          onMouseEnter={() => setSelectProject1(true)}
-          onMouseLeave={() => setSelectProject1(false)}>
+          className={selectProject1 ? "default" : ""}
+          onMouseEnter={() => {
+            setSelectProject2(false);
+            setSelectProject3(false);
+            setSelectProject1(true);
+          }}>
           Balance Book
         </div>
         <div
-          className="miniNavLink"
-          onMouseEnter={() => {setSelectProject1(false); setSelectProject2(true)}}
-          onMouseLeave={() => setSelectProject2(false)}>
+          className={selectProject2 ? "default" : ""}
+          onMouseEnter={() => {
+            setSelectProject1(false);
+            setSelectProject3(false);
+            setSelectProject2(true);
+          }}>
           NC News
         </div>
         <div
-          className="miniNavLink"
-          onMouseEnter={() => {setSelectProject1(false); setSelectProject3(true); }}
-          onMouseLeave={() => setSelectProject3(false)}>
+          className={selectProject3 ? "default" : ""}
+          onMouseEnter={() => {
+            setSelectProject1(false);
+            setSelectProject2(false);
+            setSelectProject3(true);
+          }}>
           React App
         </div>
       </div>
@@ -126,11 +135,11 @@ export default function () {
           </div>
         ) : null}
       </div>
-      <div id="scrollButton3" class="ScrollButtons">
+      {/* <div id="scrollButton3" class="ScrollButtons">
         <a href="#">
           <span></span>
         </a>
-      </div>
+      </div> */}
     </div>
   );
 }
