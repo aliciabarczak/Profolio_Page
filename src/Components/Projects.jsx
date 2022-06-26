@@ -4,6 +4,8 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import { useState } from "react";
+import { BsGithub } from "react-icons/bs";
+import { FiExternalLink } from "react-icons/fi";
 export default function () {
   const [selectProject1, setSelectProject1] = useState(true);
   const [selectProject2, setSelectProject2] = useState(false);
@@ -55,7 +57,7 @@ export default function () {
             <div id="filter"></div>
             <img
               className="fadedImg"
-              src="https://i.ibb.co/484Mqv3/Screenshot-2022-06-23-at-15-51-46.png"
+              src="https://i.ibb.co/sHnRfNL/Screenshot-2022-06-26-at-19-13-38.png"
             />
             <div
               id="backgroundBox"
@@ -76,6 +78,19 @@ export default function () {
                 </p>
               </div>
             </div>
+            <div className="tech">
+              <p>React</p>
+              <p>Express</p>
+              <p>Heroku </p>
+            </div>
+            <div className="bottomIcons">
+              <a data-aos="fade-right">
+                <BsGithub />
+              </a>
+              <a data-aos="fade-left">
+                <FiExternalLink />
+              </a>
+            </div>
           </div>
         ) : null}
         {selectProject2 ? (
@@ -83,7 +98,7 @@ export default function () {
             <div id="filter"></div>
             <img
               className="fadedImg"
-              src="https://i.ibb.co/484Mqv3/Screenshot-2022-06-23-at-15-51-46.png"
+              src="https://i.ibb.co/sHnRfNL/Screenshot-2022-06-26-at-19-13-38.png"
             />
             <div
               id="backgroundBox"
@@ -104,6 +119,19 @@ export default function () {
                 </p>
               </div>
             </div>
+            <div className="tech">
+              <p>React</p>
+              <p>Express</p>
+              <p>Heroku </p>
+            </div>
+            <div className="bottomIcons">
+              <a data-aos="fade-right">
+                <BsGithub />
+              </a>
+              <a data-aos="fade-left">
+                <FiExternalLink />
+              </a>
+            </div>
           </div>
         ) : null}
         {selectProject3 ? (
@@ -111,7 +139,7 @@ export default function () {
             <div id="filter"></div>
             <img
               className="fadedImg"
-              src="https://i.ibb.co/484Mqv3/Screenshot-2022-06-23-at-15-51-46.png"
+              src="https://i.ibb.co/sHnRfNL/Screenshot-2022-06-26-at-19-13-38.png"
             />
             <div
               id="backgroundBox"
@@ -132,6 +160,19 @@ export default function () {
                   quis iuvaret expetendis his, te elit voluptua dignissim per,
                 </p>
               </div>
+            </div>
+            <div className="tech">
+              <p>React</p>
+              <p>Express</p>
+              <p>Heroku </p>
+            </div>
+            <div className="bottomIcons">
+              <a data-aos="fade-right">
+                <BsGithub />
+              </a>
+              <a data-aos="fade-left">
+                <FiExternalLink />
+              </a>
             </div>
           </div>
         ) : null}
