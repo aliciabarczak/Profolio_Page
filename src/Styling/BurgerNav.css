@@ -1,0 +1,92 @@
+.nav-menu-active,
+.nav-menu,
+.BurgerNav {
+  position: absolute;
+}
+
+.BurgerNav {
+  width: 100%;
+  background-color: rgba(4, 0, 48, 1);
+  height: 80px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.menu-bars {
+  margin-left: 2rem;
+  font-size: 2rem;
+  background: none;
+}
+
+.nav-menu {
+  background-color: rgba(4, 0, 48, 1);
+  width: 170px;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  top: 0;
+  left: -100%;
+  transition: 850ms;
+}
+
+.nav-menu-active {
+  background-color: rgba(4, 0, 48, 1);
+  width: 170px;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  top: 0;
+  left: 0;
+  transition: 350ms;
+}
+
+.nav-text {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  list-style: none;
+  margin: auto;
+  height: 60px;
+}
+
+.nav-text a {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  font-weight: 400;
+  margin: 0;
+  font-size: 15px;
+  color: rgb(83, 152, 133);
+  width: 95%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 1.5rem;
+  border-radius: 4px;
+}
+
+.nav-text a:hover {
+  background-color: rgb(83, 152, 133);
+  color: white;
+}
+.nav-menu-items {
+  width: 100%;
+}
+
+.navbar-toggle {
+  background-color: rgba(4, 0, 48, 1);
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+span {
+  margin-left: 16px;
+}
+
+.menu-bars,
+.closeIcon {
+  color: white;
+}
