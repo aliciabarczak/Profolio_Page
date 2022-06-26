@@ -2,17 +2,19 @@ import "./Styling/App.css";
 import Footer from "./Components/Footer";
 import AboutMePage from "./Components/AboutMePage";
 import Homepage from "./Components/Homepage";
-import Nav from "./Components/Nav";
 import Projects from "./Components/Projects";
 import Blogs from "./Components/Blogs";
 import Contact from "./Components/Contact";
+import BurgerNav from "./Components/BurgerNav.jsx";
+import { useState } from "react";
 
 function App() {
+  const [sidebar, setSidebar] = useState(false);
   return (
     <div className="App">
-      {/* <Nav /> */}
       <main>
-        <section id="homepage">
+        <BurgerNav sidebar={sidebar} setSidebar={setSidebar} />
+        <section id="homepage" className={sidebar ? "blur" : ""}>
           <Homepage />
         </section>
         <section id="about">

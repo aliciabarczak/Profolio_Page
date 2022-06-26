@@ -1,10 +1,8 @@
-import { useState } from "react";
 import { AiOutlineBars, AiOutlineClose } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import "./../Styling/BurgerNav.css";
 
-function BurgerNav() {
-  const [sidebar, setSidebar] = useState(false);
+function BurgerNav({ sidebar, setSidebar }) {
   const showSidebar = () => {
     setSidebar(!sidebar);
   };
@@ -51,7 +49,10 @@ function BurgerNav() {
               <li key={index} className={item.cName}>
                 <a href={item.path}>
                   {" "}
-                  <span>{item.title}</span>
+                  <span>
+                    <p>{index + 1}</p>
+                    {item.title}
+                  </span>
                 </a>
               </li>
             );

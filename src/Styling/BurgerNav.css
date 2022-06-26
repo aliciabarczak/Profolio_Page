@@ -6,8 +6,8 @@
 
 .BurgerNav {
   width: 100%;
-  background-color: rgba(4, 0, 48, 1);
   height: 80px;
+
   display: flex;
   justify-content: start;
   align-items: center;
@@ -20,25 +20,29 @@
 }
 
 .nav-menu {
-  background-color: rgba(4, 0, 48, 1);
-  width: 170px;
+  background-color: rgba(2, 0, 28, 0.85);
+  width: 65%;
   height: 100%;
   display: flex;
-  justify-content: start;
+  justify-content: center;
   top: 0;
   left: -100%;
   transition: 850ms;
+  z-index: 9;
 }
 
 .nav-menu-active {
-  background-color: rgba(4, 0, 48, 1);
-  width: 170px;
-  height: 100%;
+  position: absolute;
+  background-color: rgba(2, 0, 28, 0.85);
+  width: 65%;
+  width: 65%;
+  height: 100vh;
   display: flex;
-  justify-content: start;
+  justify-content: center;
   top: 0;
   left: 0;
   transition: 350ms;
+  z-index: 9;
 }
 
 .nav-text {
@@ -86,7 +90,24 @@ span {
   margin-left: 16px;
 }
 
-.menu-bars,
+.menu-bars {
+  color: white;
+  margin-left: 20px;
+}
 .closeIcon {
   color: white;
+  background-color: rgba(4, 0, 48, 0.9);
+  margin-left: -65px;
+}
+
+.nav-text p {
+  font-size: 13px;
+  margin-left: 21px;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.blur {
+  filter: blur(3px);
+  transition: 850ms;
 }
