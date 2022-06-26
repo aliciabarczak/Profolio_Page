@@ -1,4 +1,5 @@
 import "./../Styling/Projects.css";
+import "./../Styling/ScrollButton.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -135,11 +136,11 @@ export default function () {
           </div>
         ) : null}
       </div>
-      {/* <div id="scrollButton3" class="ScrollButtons">
-        <a href="#">
+      <div id="scrollButton2" className="ScrollButtons">
+        <a href="#BlogPage">
           <span></span>
         </a>
-      </div> */}
+      </div>
     </div>
   );
 }

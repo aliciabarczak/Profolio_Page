@@ -8,7 +8,7 @@ export default function Homepage() {
     <>
       <Image />
       <MainText />
-      <div id="scrollButton" class="ScrollButtons">
+      <div id="scrollButton" className="ScrollButtons">
         <a href="#AboutMePage">
           <span></span>
         </a>
