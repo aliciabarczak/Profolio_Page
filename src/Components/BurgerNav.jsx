@@ -48,9 +48,9 @@ function BurgerNav({ sidebar, setSidebar }) {
             return (
               <li key={index} className={item.cName}>
                 <a href={item.path}>
-                  {" "}
                   <span>
                     <p>{index + 1}</p>
+
                     {item.title}
                   </span>
                 </a>

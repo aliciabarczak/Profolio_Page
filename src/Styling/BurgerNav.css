@@ -67,6 +67,7 @@
   align-items: center;
   padding: 1.5rem;
   border-radius: 4px;
+  letter-spacing: 1px;
 }
 
 .nav-text a:hover {
@@ -87,7 +88,10 @@
 }
 
 span {
+  width: 100px;
+  justify-content: space-around;
   margin-left: 16px;
+  display: flex;
 }
 
 .menu-bars {
@@ -97,14 +101,12 @@ span {
 .closeIcon {
   color: white;
   background-color: rgba(4, 0, 48, 0.9);
-  margin-left: -65px;
+  margin-left: -43px;
 }
 
 .nav-text p {
-  font-size: 13px;
-  margin-left: 21px;
+  font-size: 15px;
   color: white;
-  letter-spacing: 2px;
 }
 
 .blur {
