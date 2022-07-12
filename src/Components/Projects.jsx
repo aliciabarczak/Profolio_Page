@@ -30,7 +30,7 @@ export default function () {
             setSelectProject3(false);
             setSelectProject1(true);
           }}>
-          Balance Book
+          NC News
         </div>
         <div
           className={selectProject2 ? "default" : ""}
@@ -39,7 +39,7 @@ export default function () {
             setSelectProject3(false);
             setSelectProject2(true);
           }}>
-          NC News
+          DooDuels
         </div>
         <div
           className={selectProject3 ? "default" : ""}
@@ -54,16 +54,158 @@ export default function () {
       <div className="projects">
         {selectProject1 ? (
           <div id="Project1">
-            <div id="filter"></div>
             <img
               className="fadedImg"
               src="https://i.ibb.co/sHnRfNL/Screenshot-2022-06-26-at-19-13-38.png"
             />
-            <div
-              id="backgroundBox"
-              data-aos="fade-up"
-              data-aos-anchor-placement="center-bottom">
-              <div class="contents">
+            <div id="backgroundBox">
+              <div
+                class="contents"
+                data-aos="fade-up"
+                data-aos-anchor-placement="center-bottom">
+                <p>
+                  NC News is a news aggregation demo I built in <b>React.js</b>{" "}
+                  during week nine of the
+                  <a
+                    href="https://northcoders.com/our-courses/coding-bootcamp"
+                    className="NC-link"
+                    target="_blank">
+                    Northcoders' Full Stack Developer Course.
+                  </a>
+                  <p>
+                    This project aims to demonstrate some of the skills I've
+                    learnt in three weeks of front end study, mostly dedicated
+                    to React subjects including:
+                  </p>
+                  <ul className="NC-News-list">
+                    <li>
+                      <b>React DOM</b>{" "}
+                    </li>
+                    <li>
+                      <b>React Lifecycle</b>
+                    </li>
+                    <li>
+                      <b>React Routing</b>
+                    </li>
+                    <li>
+                      <b>Optimistic Rendering</b>
+                    </li>
+                    <li>
+                      <b>Error Handling </b>
+                    </li>
+                  </ul>
+                  <p>
+                    This front end application interacts with the back end
+                    RESTful API I created during week six of the course. Details
+                    of the API may be found on{" "}
+                    <a
+                      href="https://github.com/aliciabarczak/NC-News-BE"
+                      className="GH-link"
+                      target="_blank">
+                      Github
+                    </a>
+                    . This API is further{" "}
+                    <a
+                      href="https://nc-news-alicia.herokuapp.com/api"
+                      className="GH-link"
+                      target="_blank">
+                      hosted on Heroku
+                    </a>
+                    . .
+                  </p>
+                </p>
+              </div>
+
+              <div className="tech">
+                <p>React.js</p>
+                <p>Express</p>
+                <p>Axios</p>
+                <p>Node.js </p>
+                <p>Heroku</p>
+              </div>
+              <div className="bottomIcons">
+                <a data-aos="fade-right">
+                  <BsGithub />
+                </a>
+                <a data-aos="fade-left">
+                  <FiExternalLink />
+                </a>
+              </div>
+            </div>
+          </div>
+        ) : null}
+        {selectProject2 ? (
+          <div id="Project1">
+            <img
+              className="fadedImg"
+              src="https://i.ibb.co/sHnRfNL/Screenshot-2022-06-26-at-19-13-38.png"
+            />
+            <div id="backgroundBox">
+              <div
+                class="contents"
+                data-aos="fade-up"
+                data-aos-anchor-placement="center-bottom">
+                <p>
+                  Dooduels is a guessing and drawing game which I have built as
+                  part of a team of four during the Final Project phase (weeks
+                  12-13) of the{" "}
+                  <a
+                    href="https://northcoders.com/our-courses/coding-bootcamp"
+                    className="DD-link1"
+                    target="_blank">
+                    Northcoders' Full Stack Developer Course.
+                  </a>
+                  <p>
+                    I was responsible for intergrating the <b>Firebase</b>{" "}
+                    database with our <b>React</b>-based desktop app in order to
+                    build and/or style various components and features of the
+                    app including the interactive homepage, live chat, and the
+                    gamepage.
+                    <p>
+                      The gamepage features a canvas which enables the user to
+                      produce live drawings using mouse movements or AR/hand
+                      gestures (made possible by Google's open-source
+                      machine-learning library,{" "}
+                      <a
+                        className="DD-link2"
+                        href="https://google.github.io/mediapipe/ "
+                        target="_blank">
+                        MediaPipe
+                      </a>
+                      ).
+                    </p>
+                  </p>
+                </p>
+              </div>
+
+              <div className="tech">
+                <p>React.js</p>
+                <p>Firebase</p>
+                <p>MediaPipe</p>
+                <p>Filestack</p>
+              </div>
+              <div className="bottomIcons">
+                <a data-aos="fade-right">
+                  <BsGithub />
+                </a>
+                <a data-aos="fade-left">
+                  <FiExternalLink />
+                </a>
+              </div>
+            </div>
+          </div>
+        ) : null}
+        {selectProject3 ? (
+          <div id="Project1">
+            <img
+              className="fadedImg"
+              src="https://i.ibb.co/sHnRfNL/Screenshot-2022-06-26-at-19-13-38.png"
+            />
+            <div id="backgroundBox">
+              <div
+                class="contents"
+                data-aos="fade-up"
+                data-aos-anchor-placement="center-bottom">
                 <p>
                   Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec
                   admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea
@@ -77,106 +219,25 @@ export default function () {
                   quis iuvaret expetendis his, te elit voluptua dignissim per,
                 </p>
               </div>
-            </div>
-            <div className="tech">
-              <p>React</p>
-              <p>Express</p>
-              <p>Heroku </p>
-            </div>
-            <div className="bottomIcons">
-              <a data-aos="fade-right">
-                <BsGithub />
-              </a>
-              <a data-aos="fade-left">
-                <FiExternalLink />
-              </a>
-            </div>
-          </div>
-        ) : null}
-        {selectProject2 ? (
-          <div id="Project2">
-            <div id="filter"></div>
-            <img
-              className="fadedImg"
-              src="https://i.ibb.co/sHnRfNL/Screenshot-2022-06-26-at-19-13-38.png"
-            />
-            <div
-              id="backgroundBox"
-              data-aos="fade-up"
-              data-aos-anchor-placement="center-bottom">
-              <div class="contents">
-                <p>
-                  project 2 description, project 2 description, project 2
-                  description, project 2 description, project 2 description,
-                  project 2 description, project 2 description, project 2
-                  description, project 2 description, project 2 description,
-                  project 2 description, project 2 description, project 2
-                  description, project 2 description, project 2 description,
-                  project 2 description, project 2 description, project 2
-                  description... Lorem ipsum dolor sit amet, quo ei simul congue
-                  exerci, ad nec admodum perfecto mnesarchum, vim ea mazim
-                  fierent detracto. Ea quis iuvaret expetendis his, te elit
-                </p>
+
+              <div className="tech">
+                <p>React</p>
+                <p>Express</p>
+                <p>Heroku </p>
               </div>
-            </div>
-            <div className="tech">
-              <p>React</p>
-              <p>Express</p>
-              <p>Heroku </p>
-            </div>
-            <div className="bottomIcons">
-              <a data-aos="fade-right">
-                <BsGithub />
-              </a>
-              <a data-aos="fade-left">
-                <FiExternalLink />
-              </a>
-            </div>
-          </div>
-        ) : null}
-        {selectProject3 ? (
-          <div id="Project3">
-            <div id="filter"></div>
-            <img
-              className="fadedImg"
-              src="https://i.ibb.co/sHnRfNL/Screenshot-2022-06-26-at-19-13-38.png"
-            />
-            <div
-              id="backgroundBox"
-              data-aos="fade-up"
-              data-aos-anchor-placement="center-bottom">
-              <div class="contents">
-                <p>
-                  project 3 description, project 3 description, project 3
-                  description, project 3 description, project 3 description,
-                  project 3 description, project 3 description, project 3
-                  description, project 3 description, project 3 description,
-                  project 3 description, project 3 description, project 3
-                  description, project 3 description, project 3 description,
-                  project 3 description, project 3 description, project 3
-                  description, project 3 description, project 3 description,
-                  Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec
-                  admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea
-                  quis iuvaret expetendis his, te elit voluptua dignissim per,
-                </p>
+              <div className="bottomIcons">
+                <a data-aos="fade-right">
+                  <BsGithub />
+                </a>
+                <a data-aos="fade-left">
+                  <FiExternalLink />
+                </a>
               </div>
-            </div>
-            <div className="tech">
-              <p>React</p>
-              <p>Express</p>
-              <p>Heroku </p>
-            </div>
-            <div className="bottomIcons">
-              <a data-aos="fade-right">
-                <BsGithub />
-              </a>
-              <a data-aos="fade-left">
-                <FiExternalLink />
-              </a>
             </div>
           </div>
         ) : null}
       </div>
+
       <div id="scrollButton2" className="ScrollButtons">
         <a href="#BlogPage">
           <span></span>
