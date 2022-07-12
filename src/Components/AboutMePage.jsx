@@ -14,7 +14,7 @@ export default function AboutMePage() {
       <div id="AboutMePage">
         <header>
           <h1 className="decorated">
-            <span>About me</span>
+            <span>About </span>
           </h1>
         </header>
         <section className="timeline">

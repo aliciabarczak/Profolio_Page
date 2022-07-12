@@ -11,7 +11,7 @@ export default function Contact() {
       <div id="ContactPage">
         <header>
           <h1 class="decorated">
-            <span>Get in touch</span>
+            <span>Contact</span>
           </h1>
         </header>
         <div className="contactBox">

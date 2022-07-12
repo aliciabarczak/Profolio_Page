@@ -19,14 +19,16 @@ export default function Image() {
     <img
       id="background_img"
       src="https://i.ibb.co/zNBSctX/narrow.jpg"
-      alt="img"></img>
+      alt="img"
+      data-aos="fade-right"></img>
   );
 
   const bigDesktopPic = (
     <img
       id="background_img"
       src="https://i.ibb.co/KGtgH20/F06-D0334-C013-4171-ABC0-B5273-D4-C6954-1.jpg"
-      alt="img"></img>
+      alt="img"
+      data-aos="fade-right"></img>
   );
 
   return (

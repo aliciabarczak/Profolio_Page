@@ -3,7 +3,7 @@
 }
 
 .timeline p {
-  color: white;
+  color: rgb(207, 230, 255);
   font-family: "Poppins", sans-serif;
   font-weight: 100;
   margin: 0;
@@ -14,7 +14,7 @@
 }
 
 .timeline h2 {
-  color: aliceblue;
+  color: rgb(207, 230, 255);
   margin-bottom: 0.5rem;
   font-family: "Poppins", sans-serif;
   font-size: 17px;
@@ -54,13 +54,7 @@ header {
   max-width: 1200px;
   margin: 0 auto;
   margin-bottom: 4rem;
-  margin-left: 3rem;
-}
-/* The actual timeline (the vertical ruler) */
-.timeline {
-  position: relative;
-  max-width: 1200px;
-  margin: 0 auto;
+  margin-left: -3rem;
 }
 
 /* The actual timeline (the vertical ruler) */
@@ -81,7 +75,7 @@ header {
   padding: 10px 40px;
   position: relative;
   background-color: inherit;
-  width: 50%;
+  width: 45%;
 }
 
 /* The circles on the timeline */
@@ -154,6 +148,16 @@ header {
   border-radius: 15px;
 }
 
+div.container.right,
+div.container.left {
+  padding-right: 0px;
+  width: 325px;
+}
+
+div.content.aos-init.aos-animate {
+  margin-right: 0px;
+}
+
 /* @media screen and (max-width: 300px) {
 TBC
 } */
@@ -166,7 +170,7 @@ TBC
 
   .timeline h2 {
     font-size: 14px;
-    margin: 0px;
+    margin: 0, auto;
     margin-left: -2px;
   }
 
@@ -178,6 +182,7 @@ TBC
     font-weight: 100;
     font-style: italic;
   }
+
   /* Place the timelime to the left */
   .timeline {
     margin-left: 30px;

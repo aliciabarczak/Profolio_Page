@@ -5,9 +5,8 @@
 }
 
 .BurgerNav {
-  width: 100%;
+  width: 99%;
   height: 80px;
-
   display: flex;
   justify-content: start;
   align-items: center;
@@ -35,8 +34,7 @@
   position: absolute;
   background-color: rgba(2, 0, 28, 0.85);
   width: 65%;
-  width: 65%;
-  height: 100vh;
+  height: 110vh;
   display: flex;
   justify-content: center;
   top: 0;
@@ -45,29 +43,17 @@
   z-index: 9;
 }
 
-.nav-text {
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  list-style: none;
-  margin: auto;
-  height: 60px;
-}
-
 .nav-text a {
   font-family: "Poppins", sans-serif;
   text-decoration: none;
   font-weight: 400;
-  margin: 0;
-  font-size: 15px;
+  margin: 0, auto;
   color: rgb(83, 152, 133);
   width: 95%;
   height: 100%;
-  display: flex;
-  align-items: center;
-  padding: 1.5rem;
   border-radius: 4px;
   letter-spacing: 1px;
+  font-size: 20px;
 }
 
 .nav-text a:hover {
@@ -85,13 +71,13 @@
   display: flex;
   justify-content: start;
   align-items: center;
+  margin-left: -43px;
+  margin-top: -18px;
 }
 
 span {
   width: 100px;
-  justify-content: space-around;
   margin-left: 16px;
-  display: flex;
 }
 
 .menu-bars {
@@ -104,12 +90,20 @@ span {
   margin-left: -43px;
 }
 
-.nav-text p {
-  font-size: 15px;
-  color: white;
-}
-
 .blur {
   filter: blur(3px);
   transition: 850ms;
+}
+
+.nav-text p {
+  list-style: none;
+  margin: auto;
+  height: 60px;
+  font-size: 20px;
+  color: white;
+}
+
+li.nav-text {
+  margin-left: -47%;
+  display: flex;
 }

@@ -44,19 +44,18 @@ function BurgerNav({ sidebar, setSidebar }) {
               <AiOutlineClose className="closeIcon" />
             </Link>
           </li>
-          {navBarItems.map((item, index) => {
-            return (
-              <li key={index} className={item.cName}>
-                <a href={item.path}>
-                  <span>
-                    <p>{index + 1}</p>
-
-                    {item.title}
-                  </span>
-                </a>
-              </li>
-            );
-          })}
+          <div classNme="links">
+            {navBarItems.map((item, index) => {
+              return (
+                <li key={index} className={item.cName}>
+                  <p>{index + 1}</p>
+                  <a href={item.path}>
+                    <span>{item.title}</span>
+                  </a>
+                </li>
+              );
+            })}
+          </div>
         </ul>
       </nav>
     </>
