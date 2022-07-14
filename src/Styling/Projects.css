@@ -49,10 +49,6 @@
   filter: brightness(14%);
 }
 
-.fadedImg2 {
-  width: 120%;
-}
-
 .contents,
 #backgroundBox {
   position: relative;
