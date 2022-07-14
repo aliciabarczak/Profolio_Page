@@ -45,8 +45,8 @@ export default function Contact() {
           </div>
         </div>
       </div>
-      <div id="back-to-top" className="ScrollButtons">
-        <a href="#ContactPage">
+      <div id="back-to-top" className="BackScrollButton">
+        <a href="#homepage">
           <span></span>
         </a>
       </div>

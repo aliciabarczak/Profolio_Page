@@ -1,19 +1,20 @@
 .ScrollButtons a {
   position: absolute;
   bottom: 0px;
-  left: 50%;
+  left: 45%;
   z-index: 2;
   display: inline-block;
   -webkit-transform: translate(0, -50%);
   transform: translate(0, -50%);
   transition: opacity 0.3s;
-  margin: 0px;
+  bottom: 10%;
 }
+
+#back-to-top,
 .ScrollButtons a:hover {
   opacity: 0.5;
 }
 
-#back-to-top,
 #scrollButton2,
 #scrollButton a span {
   position: absolute;
@@ -29,11 +30,8 @@
   box-sizing: border-box;
 }
 
-#back-to-top {
-  transform: rotate(90deg) scaleX(-1);
-}
-
 #back-to-top,
+.BackScrollButton,
 #scrollButton2.ScrollButtons {
   position: relative;
   margin: 0px;
@@ -64,6 +62,63 @@
   }
   100% {
     transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}
+
+.BackScrollButton {
+  transform: scaleX(-1);
+}
+
+#back-to-top a {
+  position: absolute;
+  bottom: 0px;
+  left: 80%;
+  z-index: 2;
+  display: inline-block;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  transition: opacity 0.3s;
+}
+
+#back-to-top a span {
+  position: absolute;
+  top: 0;
+  width: 24px;
+  height: 24px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: sdb04 1.5s infinite;
+  animation: sdb04 1.5s infinite;
+  box-sizing: border-box;
+}
+
+@-webkit-keyframes sdb04 {
+  0% {
+    -webkit-transform: rotate(-225deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: rotate(-225deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}
+
+@keyframes sdb04 {
+  0% {
+    transform: rotate(-225deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(-225deg) translate(-20px, 20px);
     opacity: 0;
   }
 }
