@@ -6,10 +6,15 @@ import { useEffect } from "react";
 import { useState } from "react";
 import { BsGithub } from "react-icons/bs";
 import { FiExternalLink } from "react-icons/fi";
+import DooDuelsDemo from "./DooDuelsDemo";
+import { MdVideoLibrary } from "react-icons/md";
+
 export default function () {
   const [selectProject1, setSelectProject1] = useState(true);
   const [selectProject2, setSelectProject2] = useState(false);
   const [selectProject3, setSelectProject3] = useState(false);
+  const [videoPlay, setVideoPlay] = useState(false);
+  console.log(videoPlay);
 
   useEffect(() => {
     Aos.init({ duration: 1000 });
@@ -41,7 +46,7 @@ export default function () {
           }}>
           DooDuels
         </div>
-        <div
+        {/* <div
           className={selectProject3 ? "default" : ""}
           onMouseEnter={() => {
             setSelectProject1(false);
@@ -49,23 +54,24 @@ export default function () {
             setSelectProject3(true);
           }}>
           React App
-        </div>
+        </div> */}
       </div>
       <div className="projects">
         {selectProject1 ? (
           <div id="Project1">
             <img
               className="fadedImg"
-              src="https://i.ibb.co/sHnRfNL/Screenshot-2022-06-26-at-19-13-38.png"
+              src="https://i.ibb.co/9sJP8Vn/Screenshot-2022-07-13-at-14-07-08.png"
             />
+
             <div id="backgroundBox">
               <div
                 class="contents"
                 data-aos="fade-up"
                 data-aos-anchor-placement="center-bottom">
                 <p>
-                  NC News is a news aggregation demo I built in <b>React.js</b>{" "}
-                  during week nine of the
+                  NC News is a news aggregation app I built using full-stack
+                  Javascript as part of the
                   <a
                     href="https://northcoders.com/our-courses/coding-bootcamp"
                     className="NC-link"
@@ -73,9 +79,10 @@ export default function () {
                     Northcoders' Full Stack Developer Course.
                   </a>
                   <p>
-                    This project aims to demonstrate some of the skills I've
-                    learnt in three weeks of front end study, mostly dedicated
-                    to React subjects including:
+                    I built the front end in <b>React.js</b> during week nine of
+                    the course which demonstrates some of the skills I've learnt
+                    in three weeks of front end study, mostly dedicated to React
+                    subjects including:
                   </p>
                   <ul className="NC-News-list">
                     <li>
@@ -124,10 +131,18 @@ export default function () {
                 <p>Heroku</p>
               </div>
               <div className="bottomIcons">
-                <a data-aos="fade-right">
+                <a
+                  data-aos="fade-right"
+                  href="https://github.com/aliciabarczak/NC-News-FE"
+                  target="_blank"
+                  className="GH-icon">
                   <BsGithub />
                 </a>
-                <a data-aos="fade-left">
+                <a
+                  data-aos="fade-left"
+                  href="https://nc-news-practice-site.netlify.app/"
+                  target="_blank"
+                  className="GH-icon">
                   <FiExternalLink />
                 </a>
               </div>
@@ -137,9 +152,11 @@ export default function () {
         {selectProject2 ? (
           <div id="Project1">
             <img
-              className="fadedImg"
-              src="https://i.ibb.co/sHnRfNL/Screenshot-2022-06-26-at-19-13-38.png"
+              className="fadedImg2"
+              src="https://i.ibb.co/Ry5kszN/Screenshot-2022-07-13-at-14-30-43.png"
+              alt="Screenshot-2022-07-13-at-14-30-43"
             />
+
             <div id="backgroundBox">
               <div
                 class="contents"
@@ -174,6 +191,8 @@ export default function () {
                       </a>
                       ).
                     </p>
+                    A demo of the app can be found by clicking on the bottom
+                    icon below.
                   </p>
                 </p>
               </div>
@@ -185,17 +204,23 @@ export default function () {
                 <p>Filestack</p>
               </div>
               <div className="bottomIcons">
-                <a data-aos="fade-right">
+                <a
+                  data-aos="fade-right"
+                  href="https://github.com/aliciabarczak/Dooduels"
+                  target="_blank"
+                  className="GH-icon">
                   <BsGithub />
                 </a>
-                <a data-aos="fade-left">
-                  <FiExternalLink />
+                <a data-aos="fade-left" className="video-icon">
+                  <p onClick={() => setVideoPlay(true)}>
+                    <MdVideoLibrary />
+                  </p>
                 </a>
               </div>
             </div>
           </div>
         ) : null}
-        {selectProject3 ? (
+        {/* {selectProject3 ? (
           <div id="Project1">
             <img
               className="fadedImg"
@@ -235,9 +260,9 @@ export default function () {
               </div>
             </div>
           </div>
-        ) : null}
+        ) : null} */}
       </div>
-
+      {videoPlay ? <DooDuelsDemo setVideoPlay={setVideoPlay} /> : null}
       <div id="scrollButton2" className="ScrollButtons">
         <a href="#BlogPage">
           <span></span>
