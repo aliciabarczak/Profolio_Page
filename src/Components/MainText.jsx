@@ -9,12 +9,11 @@ export default function () {
   return (
     <header id="mainText" data-aos="fade-right">
       <h1 id="Hello-txt">Hello.</h1>
-      <h1 id="Junior-txt"> I‘m a junior front-end </h1>
+      <h1 id="Junior-txt"> I‘m a junior </h1>
       <h1 id="SD-txt">Software Developer.</h1>
       <h2 id="description-txt">
-        Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum
-        perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret
-        expetendis his.
+        I used to work with law but now I work with code. I am an adopted
+        Mancunian with a passion for tech, diversity and innovation.
       </h2>
     </header>
   );

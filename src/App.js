@@ -10,6 +10,7 @@ import { useState } from "react";
 
 function App() {
   const [sidebar, setSidebar] = useState(false);
+  const [videoPlay, setVideoPlay] = useState(false);
   return (
     <div className="App">
       <main>
@@ -21,11 +22,11 @@ function App() {
           <AboutMePage />
         </section>
         <section id="experience">
-          <Projects />
+          <Projects videoPlay={videoPlay} setVideoPlay={setVideoPlay} />
         </section>
-        <section id="blogs">
+        {/* <section id="blogs">
           <Blogs />
-        </section>
+        </section> */}
         <section id="contact">
           <Contact />
         </section>

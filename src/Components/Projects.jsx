@@ -9,12 +9,10 @@ import { FiExternalLink } from "react-icons/fi";
 import DooDuelsDemo from "./DooDuelsDemo";
 import { MdVideoLibrary } from "react-icons/md";
 
-export default function () {
+export default function ({ videoPlay, setVideoPlay }) {
   const [selectProject1, setSelectProject1] = useState(true);
   const [selectProject2, setSelectProject2] = useState(false);
   const [selectProject3, setSelectProject3] = useState(false);
-  const [videoPlay, setVideoPlay] = useState(false);
-  console.log(videoPlay);
 
   useEffect(() => {
     Aos.init({ duration: 1000 });
@@ -22,14 +20,15 @@ export default function () {
 
   return (
     <div id="ProjectsPage">
-      <header>
-        <h1 class="decorated title">
+      <header id={videoPlay ? "blackout" : null}>
+        <h1 className="decorated title">
           <span>Profolio</span>
         </h1>
       </header>
-      <div id="miniNav">
+      <div id="miniNav" className={videoPlay ? "blackout" : null}>
         <div
           className={selectProject1 ? "default" : ""}
+          id={videoPlay ? "blackout" : null}
           onMouseEnter={() => {
             setSelectProject2(false);
             setSelectProject3(false);
@@ -56,7 +55,7 @@ export default function () {
           React App
         </div> */}
       </div>
-      <div className="projects">
+      <div className="projects" id={videoPlay ? "blackout" : null}>
         {selectProject1 ? (
           <div id="Project1">
             <img
@@ -262,6 +261,7 @@ export default function () {
           </div>
         ) : null} */}
       </div>
+
       {videoPlay ? <DooDuelsDemo setVideoPlay={setVideoPlay} /> : null}
       <div id="scrollButton2" className="ScrollButtons">
         <a href="#BlogPage">

@@ -37,7 +37,9 @@ export default function Contact() {
         </div>
         <div className="CVButton">
           <div className="button_slide slide_left" id="CVBtn">
-            <p data-aos="zoom-in">Download my CV</p>
+            <a data-aos="zoom-in" href="/Resources/test.pdf" download="CV">
+              <span>Download my CV</span>
+            </a>
             <br /> <br />
             <br />
           </div>

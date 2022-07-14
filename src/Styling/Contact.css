@@ -1,6 +1,6 @@
-#ContactPage{
-    display: flex;
-    flex-direction: column;
+#ContactPage {
+  display: flex;
+  flex-direction: column;
 }
 
 .button_slide {
@@ -16,7 +16,7 @@
   -webkit-transition: ease-out 0.4s;
   -moz-transition: ease-out 0.4s;
   transition: ease-out 0.4s;
-} 
+}
 
 .slide_left:hover {
   box-shadow: inset 0 0 0 200px rgb(108, 200, 175);
@@ -39,29 +39,33 @@
   margin-bottom: 15%;
 }
 
-#CVBtn p {
-   margin-top: 3px;
-  }
-  
-
-.contactBox{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+.contactBox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .contactBox img {
-    width: 100px;
-    height: auto;
-    padding: 1rem;
-    margin-left: 18%;
-
+  width: 100px;
+  height: auto;
+  padding: 1rem;
+  margin-left: 18%;
 }
 
 .contactBox p {
-    color: white;
+  color: white;
   font-family: "Poppins", sans-serif;
   font-weight: 100;
   font-size: 13px;
   padding: 1rem;
+}
+
+.aos-init.aos-animate {
+  text-decoration: none;
+}
+
+.CVButton span {
+  margin: auto;
+  color: white;
+  text-decoration: none;
 }

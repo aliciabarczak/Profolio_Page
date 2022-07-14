@@ -1,4 +1,4 @@
-import video from "./../DemoVid.mp4";
+import video from "./Resources/DemoVid.mp4";
 import { AiOutlineClose } from "react-icons/ai";
 
 export default function DooDuelsDemo({ setVideoPlay }) {
