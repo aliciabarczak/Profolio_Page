@@ -7,14 +7,20 @@ import Blogs from "./Components/Blogs";
 import Contact from "./Components/Contact";
 import BurgerNav from "./Components/BurgerNav.jsx";
 import { useState } from "react";
+import useScreenSize from "./Hooks/useScreenSize";
+import Nav from "./Components/Nav";
 
 function App() {
   const [sidebar, setSidebar] = useState(false);
   const [videoPlay, setVideoPlay] = useState(false);
+  const { desktopView, width } = useScreenSize();
   return (
     <div className="App">
+      {width > 1000 ? <Nav /> : null}
       <main>
-        <BurgerNav sidebar={sidebar} setSidebar={setSidebar} />
+        {width < 1000 ? (
+          <BurgerNav sidebar={sidebar} setSidebar={setSidebar} />
+        ) : null}
         <section id="homepage" className={sidebar ? "blur" : ""}>
           <Homepage />
         </section>

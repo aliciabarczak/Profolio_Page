@@ -16,6 +16,7 @@ export default function useScreenSize() {
   }, []);
 
   const mobileView = width <= 600;
+  const desktopView = width <= 1000;
 
-  return { width, mobileView };
+  return { width, mobileView, desktopView };
 }

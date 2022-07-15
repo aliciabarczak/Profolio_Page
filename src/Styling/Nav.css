@@ -1,5 +1,11 @@
-#Nav {
-  width: 100%;
+div#Nav {
+  color: white;
+  z-index: 9;
+  width: 50%;
+  border: solid 1px white;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-left: -30px;
 }
 
 #NavTxt {
@@ -8,10 +14,7 @@
   color: white;
   font-family: "Poppins", sans-serif;
   font-weight: 100;
-  font-size: 13px;
+  font-size: 18px;
   list-style: none;
-}
-
-.NavLink {
-  margin-right: -120px;
+  z-index: 9;
 }

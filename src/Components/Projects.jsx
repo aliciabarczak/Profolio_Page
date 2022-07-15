@@ -263,7 +263,7 @@ export default function ({ videoPlay, setVideoPlay }) {
       </div>
 
       {videoPlay ? <DooDuelsDemo setVideoPlay={setVideoPlay} /> : null}
-      <div id="scrollButton2" className="ScrollButtons">
+      <div id="scrollButton3" className="ScrollButtons">
         <a href="#contact">
           <span></span>
         </a>

@@ -275,30 +275,63 @@ div.content.aos-init.aos-animate {
   header {
     font-size: 25px;
   }
-  h1.decorated {
-    max-width: 450px;
-  }
+
   #AboutMePage .decorated > span:after {
     margin: 0 125%;
+    width: 450px;
   }
   .decorated > span:after {
     margin: 0 150%;
+    width: 450px;
   }
 
   #contact .decorated > span:after {
     margin: 0 170%;
+    width: 450px;
   }
 }
 
-@media screen and (min-width: 900px) {
-  .timeline p {
-    font-size: 14px;
+@media screen and (min-width: 1000px) {
+  #AboutMePage {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 0%;
   }
-  .timeline h2 {
+  h1.decorated {
+    max-width: 850px;
+  }
+  .content.aos-init.aos-animate p {
+    font-size: 15px;
+  }
+
+  .content.aos-init.aos-animate h2 {
     font-size: 23px;
+    margin: 0, auto;
+    margin-left: -2px;
   }
   header {
     font-size: 28px;
+  }
+  .left {
+    margin-left: -1.25%;
+  }
+  .timeline::after {
+    margin-left: -1%;
+    height: 1250px;
+  }
+
+  #about {
+    height: 1350px;
+  }
+  #AboutMePage .decorated > span:after {
+    width: 550px;
+  }
+  .decorated > span:after {
+    width: 550px;
+  }
+
+  #contact .decorated > span:after {
+    width: 550px;
   }
 }
 

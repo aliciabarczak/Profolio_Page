@@ -337,3 +337,10 @@ p.video-icon {
     height: 650px;
   }
 }
+
+@media (min-width: 1000px) {
+  #ProjectsPage {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}

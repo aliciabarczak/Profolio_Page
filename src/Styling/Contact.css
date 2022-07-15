@@ -121,3 +121,25 @@
     margin: auto;
   }
 }
+
+@media (min-width: 1000px) {
+  .contactBox p {
+    font-size: 20px;
+  }
+  #CVBtn a {
+    font-size: 20px;
+    margin: auto;
+  }
+  div.CVButton {
+    padding-top: 0px;
+    margin-left: 35%;
+  }
+
+  .contactBox p {
+    margin-left: 18%;
+  }
+
+  #contact {
+    padding-bottom: 0px;
+  }
+}

@@ -15,6 +15,7 @@
 }
 
 #scrollButton2,
+#scrollButton3,
 #scrollButton a span {
   position: absolute;
   top: 0;
@@ -30,6 +31,7 @@
 }
 
 #back-to-top,
+#scrollButton3,
 .BackScrollButton,
 #scrollButton2.ScrollButtons {
   position: relative;
@@ -38,6 +40,10 @@
   margin-top: 100px;
 }
 
+div#scrollButton3.ScrollButtons {
+  margin-top: 15%;
+  margin-left: 48.25%;
+}
 @-webkit-keyframes sdb05 {
   0% {
     -webkit-transform: rotate(-45deg) translate(0, 0);
@@ -127,5 +133,33 @@ div#back-to-top.BackScrollButton {
   100% {
     transform: rotate(-225deg) translate(-20px, 20px);
     opacity: 0;
+  }
+}
+
+@media (min-width: 1000px) {
+  .ScrollButtons a {
+    position: absolute;
+    left: 20%;
+    z-index: 2;
+    display: inline-block;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    transition: opacity 0.3s;
+    bottom: 20%;
+  }
+  div#scrollButton2.ScrollButtons {
+    margin-top: -15%;
+    margin-left: 48.25%;
+  }
+  div#back-to-top.BackScrollButton {
+    margin: 0px;
+    position: absolute;
+    left: 55%;
+    margin-top: 10%;
+  }
+
+  div#scrollButton3.ScrollButtons {
+    margin-top: 15%;
+    margin-left: 48.25%;
   }
 }

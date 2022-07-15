@@ -131,7 +131,7 @@ body {
 }
 
 @media (min-width: 1000px) {
-  .App {
+  /* .App {
     display: grid;
     grid-template-areas:
       "mainText background_img"
@@ -141,7 +141,7 @@ body {
     grid-template-rows: 50% 40% 10%;
     padding: 0px;
     margin: 0px;
-  }
+  } */
 
   section {
     padding-bottom: 10rem;
@@ -156,13 +156,13 @@ body {
     bottom: 0px;
   }
 
-  #mainText {
-    margin-top: 30%;
+  #mainText.aos-init.aos-animate {
+    margin-top: 10%;
     margin-bottom: 0;
     height: 0px;
     margin-left: 70px;
   }
-  #HomePageButtons {
+  /* #HomePageButtons {
     margin-left: 10%;
     margin-top: 30%;
   }
@@ -178,15 +178,15 @@ body {
   #SD-txt {
     font-size: 35px;
   }
-
-  #description-txt {
-    font-size: 15px;
+*/
+  h2#description-txt {
     margin-right: 30%;
-    width: 260px;
+    width: 460px;
+    padding: 0px;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
   section {
     padding-bottom: 20rem;
   }
@@ -211,6 +211,11 @@ body {
     font-size: 20px;
     margin-right: 30%;
     width: 450px;
+  }
+
+  #ContactPage {
+    padding-left: 10%;
+    padding-right: 10%;
   }
 }
 
