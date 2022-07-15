@@ -18,11 +18,11 @@ function BurgerNav({ sidebar, setSidebar }) {
       path: "#experience",
       cName: "nav-text",
     },
-    {
-      title: "Blogs",
-      path: "#blogs",
-      cName: "nav-text",
-    },
+    // {
+    //   title: "Blogs",
+    //   path: "#blogs",
+    //   cName: "nav-text",
+    // },
     {
       title: "Contact",
       path: "#contact",
@@ -44,7 +44,7 @@ function BurgerNav({ sidebar, setSidebar }) {
               <AiOutlineClose className="closeIcon" />
             </Link>
           </li>
-          <div classNme="links">
+          <div className="links">
             {navBarItems.map((item, index) => {
               return (
                 <li key={index} className={item.cName}>

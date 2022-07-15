@@ -111,3 +111,13 @@
     margin-left: 45%;
   }
 }
+
+@media screen and (min-width: 600px) {
+  .contactBox p {
+    font-size: 18px;
+  }
+  #CVBtn a {
+    font-size: 18px;
+    margin: auto;
+  }
+}

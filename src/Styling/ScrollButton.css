@@ -67,6 +67,7 @@
 
 .BackScrollButton {
   transform: scaleX(-1);
+  margin: 0px;
 }
 
 #back-to-top a {
@@ -78,6 +79,7 @@
   -webkit-transform: translate(0, -50%);
   transform: translate(0, -50%);
   transition: opacity 0.3s;
+  margin: 0px;
 }
 
 #back-to-top a span {
@@ -92,6 +94,12 @@
   -webkit-animation: sdb04 1.5s infinite;
   animation: sdb04 1.5s infinite;
   box-sizing: border-box;
+}
+div#back-to-top.BackScrollButton {
+  margin: 0px;
+  position: absolute;
+  left: 55%;
+  margin-top: 40%;
 }
 
 @-webkit-keyframes sdb04 {
