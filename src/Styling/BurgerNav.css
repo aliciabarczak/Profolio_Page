@@ -108,3 +108,23 @@ li.nav-text {
   margin-left: -47%;
   display: flex;
 }
+
+@media screen and (max-width: 300px) {
+  nav.nav-menu-active {
+    padding-left: 20%;
+  }
+
+  h1.decorated {
+    width: 120%;
+  }
+  .menu-bars {
+    font-size: 1.8rem;
+  }
+  .nav-text a {
+    font-size: 15px;
+  }
+
+  .nav-text p {
+    font-size: 15px;
+  }
+}

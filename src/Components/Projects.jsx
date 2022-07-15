@@ -211,7 +211,7 @@ export default function ({ videoPlay, setVideoPlay }) {
                   <BsGithub />
                 </a>
                 <a data-aos="fade-left" className="video-icon">
-                  <p onClick={() => setVideoPlay(true)}>
+                  <p onClick={() => setVideoPlay(true)} className="video-icon">
                     <MdVideoLibrary />
                   </p>
                 </a>

@@ -33,7 +33,9 @@ export default function Contact() {
             data-aos="zoom-in"
             src="https://i.ibb.co/z4G8Bcq/email-14-128.png"
           />
-          <p data-aos="fade-right">aliciabarczak1@gmail.com</p>
+          <p data-aos="fade-right" className="email">
+            aliciabarczak1@gmail.com
+          </p>
         </div>
         <div className="CVButton">
           <div className="button_slide slide_left" id="CVBtn">

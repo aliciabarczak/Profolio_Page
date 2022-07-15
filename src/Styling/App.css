@@ -76,96 +76,6 @@ body {
   font-size: 16px;
 }
 
-/* .button_slide {
-  color: rgb(103, 192, 168);
-  border: 2px solid rgb(108, 200, 175);
-  border-radius: 10px;
-  padding: 0.5rem;
-  font-family: "Lucida Console", Monaco, monospace;
-  font-size: 12px;
-  letter-spacing: 1px;
-  cursor: pointer;
-  box-shadow: inset 0 0 0 0 rgb(108, 200, 175);
-  -webkit-transition: ease-out 0.4s;
-  -moz-transition: ease-out 0.4s;
-  transition: ease-out 0.4s;
-} */
-/* 
-.slide_down:hover {
-  box-shadow: inset 0 100px 0 0 rgb(108, 200, 175);
-  color: white;
-}
-
-.slide_right:hover {
-  box-shadow: inset 200px 0 0 0 rgb(108, 200, 175);
-  color: white;
-} */
-
-/* .slide_left:hover {
-  box-shadow: inset 0 0 0 200px rgb(108, 200, 175);
-  color: white;
-}
-
-.twoSmallBTS {
-  display: flex;
-
-  margin-bottom: 10px;
-  align-items: center;
-  grid-area: twoSmallBTS;
-}
-
-.bigBT {
-  grid-area: bigBT;
-} */
-
-/* #HomePageButtons {
-  margin: auto;
-  display: grid;
-  grid-template:
-    "twoSmallBTS"
-    "bigBT";
-  text-align: center;
-  grid-area: HomePageButtons;
-  margin-top: 5%;
-  margin-left: 25%;
-  margin-bottom: 40%;
-} */
-
-/* #about_me {
-  width: 100px;
-  margin-left: 8px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  grid-area: about_me;
-} */
-/* 
-#see_my_work {
-  width: 100px;
-  margin-right: 8px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  grid-area: see_my_work;
-}
-
-#contact_me {
-  width: 230px;
-  height: 20px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  grid-area: contact_me;
-} */
-
-/* footer {
-  color: white;
-  font-family: "Poppins", sans-serif;
-  font-weight: 250;
-  margin-left: 1rem;
-  font-size: 12px;
-  grid-area: footer;
-  position: absolute;
-  bottom: 10px;
-} */
-
 #contact_details {
   margin: 0;
 }
@@ -181,52 +91,19 @@ body {
   }
 
   #Hello-txt {
-    font-size: 28px;
+    font-size: 35px;
   }
 
   #Junior-txt {
-    font-size: 23px;
+    font-size: 28px;
   }
 
   #SD-txt {
-    font-size: 18px;
+    font-size: 24px;
   }
   #description-txt {
-    font-size: 13px;
+    font-size: 16px;
   }
-
-  .button_slide {
-    border: 2px solid rgb(108, 200, 175);
-    padding: 0.2rem;
-    font-size: 11px;
-    letter-spacing: 0.5px;
-  }
-  .twoSmallBTS {
-    margin-bottom: -4px;
-  }
-
-  /* #about_me {
-    width: 90px;
-    margin-left: 4px;
-  }
-
-  #see_my_work {
-    width: 90px;
-    margin-right: 4px;
-  }
-
-  #contact_me {
-    width: 200px;
-    margin: 0px;
-  }
-
-  #HomePageButtons {
-    margin-top: 0px;
-  } */
-
-  /* footer {
-    font-size: 11px;
-  } */
 }
 
 @media (min-width: 700px) {
@@ -248,30 +125,8 @@ body {
     font-size: 40px;
   }
   #description-txt {
-    font-size: 20px;
+    font-size: 25px;
   }
-
-  /* .button_slide {
-    border: 2.5px solid rgb(108, 200, 175);
-    padding: 0.6rem;
-    font-size: 14px;
-    letter-spacing: 1px;
-  } */
-  /* #about_me {
-    width: 120px;
-  }
-
-  #see_my_work {
-    width: 120px;
-  }
-
-  #contact_me {
-    width: 275px;
-  }
-
-  #HomePageButtons {
-    margin-top: 12px;
-  } */
 }
 
 @media (min-width: 1000px) {
@@ -328,28 +183,6 @@ body {
     margin-right: 30%;
     width: 260px;
   }
-
-  /* .button_slide {
-    border: 2.5px solid rgb(108, 200, 175);
-    padding: 0.4rem;
-    font-size: 12px;
-    letter-spacing: 1px;
-  } */
-  /* #about_me {
-    width: 110px;
-  }
-
-  #see_my_work {
-    width: 110px;
-  }
-
-  #contact_me {
-    width: 255px;
-  } */
-
-  /* footer {
-    margin-left: 35px;
-  } */
 }
 
 @media (min-width: 1200px) {

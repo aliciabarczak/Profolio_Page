@@ -69,3 +69,45 @@
   color: white;
   text-decoration: none;
 }
+
+@media screen and (max-width: 300px) {
+  #ContactPage,
+  #AboutMe,
+  #homepage {
+    max-width: 300px;
+  }
+  div.contactBox {
+    width: 220px;
+    margin-left: -5%;
+  }
+
+  #ContactPage {
+    flex-direction: column;
+  }
+  .contactBox {
+    flex-direction: column;
+    margin: auto;
+  }
+  .contactBox p {
+    margin-left: 40%;
+    overflow: visible;
+  }
+
+  .contactBox img {
+    margin-left: 40%;
+  }
+
+  .CVButton {
+    width: 100px;
+    margin-left: 5%;
+  }
+
+  #CVBtn a {
+    width: 100px;
+    margin-left: 0%;
+  }
+
+  p.email.aos-init.aos-animate {
+    margin-left: 45%;
+  }
+}

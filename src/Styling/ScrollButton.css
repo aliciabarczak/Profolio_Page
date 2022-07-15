@@ -1,13 +1,12 @@
 .ScrollButtons a {
   position: absolute;
-  bottom: 0px;
   left: 45%;
   z-index: 2;
   display: inline-block;
   -webkit-transform: translate(0, -50%);
   transform: translate(0, -50%);
   transition: opacity 0.3s;
-  bottom: 10%;
+  bottom: 0%;
 }
 
 #back-to-top,
