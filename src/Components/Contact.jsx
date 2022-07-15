@@ -19,14 +19,29 @@ export default function Contact() {
             data-aos="zoom-in"
             src="https://i.ibb.co/Wkxjfd7/linkedin-6-48.png"
           />
-          <p data-aos="fade-right">Alicia Barczak</p>
+          <p data-aos="fade-right">
+            <a
+              href="https://www.linkedin.com/in/alicia-barczak"
+              className="default2"
+              target="_blank">
+              Click to connect!
+            </a>
+          </p>
         </div>
         <div className="contactBox">
           <img
             data-aos="zoom-in"
             src="https://i.ibb.co/z2QSFmT/github-10-48.png"
           />
-          <p data-aos="fade-right">aliciabarczak</p>
+          <p data-aos="fade-right">
+            {" "}
+            <a
+              href="https://github.com/aliciabarczak"
+              className="default2"
+              target="_blank">
+              aliciabarczak
+            </a>
+          </p>
         </div>
         <div className="contactBox">
           <img

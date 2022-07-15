@@ -68,6 +68,8 @@ div.contents {
   z-index: 4;
   margin: 5%;
 }
+
+.default2,
 .default {
   display: inline-block;
   position: relative;
@@ -76,6 +78,11 @@ div.contents {
   font-weight: 400;
   text-decoration: underline 0.1em rgba(108, 200, 175, 0);
   transition: text-decoration-color 500ms;
+}
+
+.default2 {
+  color: white;
+  font-weight: 100;
 }
 
 #scrollButton3 {
@@ -175,82 +182,6 @@ p.video-icon {
   filter: brightness(10%);
   transition: 850ms;
 }
-
-/* @media screen and (max-width: 300px) {
-  #miniNav {
-    width: 110%;
-    margin-left: 10%;
-    margin-bottom: -20px;
-  }
-} */
-
-/* @media screen and (max-width: 375px) {
-  #miniNav {
-    width: 90%;
-    margin-left: 9%;
-    margin-bottom: -20px;
-  }
-  #ProjectsPage {
-    max-width: 350px;
-  }
-  .DooDuelsDemo video {
-    width: 350px;
-  }
-  .DooDuelsDemo {
-    width: 350px;
-  }
-
-  .contents,
-  #backgroundBox {
-    margin-left: -7%;
-  }
-
-  div.contents {
-    padding: 0.2rem;
-    width: 320px;
-    border: solid 1px rgb(127, 244, 213);
-    font-size: 12px;
-    padding: 0.7rem;
-    margin: auto;
-    margin-top: 17px;
-    z-index: -1;
-    position: relative;
-  }
-
-  #backgroundBox {
-    position: absolute;
-    margin-top: 30px;
-    left: 42px;
-    top: -5px;
-    z-index: 1000;
-    padding: 1rem;
-    padding-bottom: 3rem;
-    color: #ffffff;
-    font-weight: bold;
-    width: 85%;
-    z-index: 4;
-  }
-}
-
-@media screen and (max-width: 455px) {
-  #miniNav {
-    width: 90%;
-    margin-left: 5%;
-    margin-bottom: -20px;
-  }
-  .contents,
-  #backgroundBox {
-    margin-left: -3%;
-  }
-}
-
-
-@media screen and (max-width: 420px) {
-  .contents,
-  #backgroundBox {
-    margin-left: -1%;
-  }
-} */
 
 @media screen and (min-width: 600px) {
   section#experience,
