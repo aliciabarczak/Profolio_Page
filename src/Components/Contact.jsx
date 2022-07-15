@@ -17,30 +17,34 @@ export default function Contact() {
         <div className="contactBox">
           <img
             data-aos="zoom-in"
-            src="https://i.ibb.co/4KM38Bk/linkedin-3-128.png"
+            src="https://i.ibb.co/Wkxjfd7/linkedin-6-48.png"
           />
           <p data-aos="fade-right">Alicia Barczak</p>
         </div>
         <div className="contactBox">
           <img
             data-aos="zoom-in"
-            src="https://i.ibb.co/XJq5vb6/github-11-128.png"
+            src="https://i.ibb.co/z2QSFmT/github-10-48.png"
           />
           <p data-aos="fade-right">aliciabarczak</p>
         </div>
         <div className="contactBox">
           <img
             data-aos="zoom-in"
-            src="https://i.ibb.co/z4G8Bcq/email-14-128.png"
+            src="https://i.ibb.co/Lpfkcs8/email-14-48.png"
           />
           <p data-aos="fade-right" className="email">
             aliciabarczak1@gmail.com
           </p>
         </div>
-        <div className="CVButton">
+        <div className="contactBox">
+          <img
+            data-aos="zoom-in"
+            src="https://i.ibb.co/6R4MnVW/document-2-48.png"
+          />
           <div className="button_slide slide_left" id="CVBtn">
-            <a data-aos="zoom-in" href="/Resources/test.pdf" download="CV">
-              <span>Download my CV</span>
+            <a href="/Resources/test.pdf" download="CV">
+              <span data-aos="zoom-in">Download my CV</span>
             </a>
             <br /> <br />
             <br />

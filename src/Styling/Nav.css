@@ -6,15 +6,43 @@ div#Nav {
   border-radius: 20px;
   margin-top: 20px;
   margin-left: -30px;
+  padding: 0px;
 }
 
 #NavTxt {
   display: flex;
   justify-content: space-evenly;
-  color: white;
   font-family: "Poppins", sans-serif;
   font-weight: 100;
   font-size: 18px;
   list-style: none;
   z-index: 9;
+  padding: 0px;
+}
+
+.NavLink a {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  font-weight: 200;
+  margin: 0, auto;
+  color: white;
+  width: 95%;
+  height: 100%;
+  border-radius: 4px;
+  letter-spacing: 1px;
+  font-size: 15px;
+  padding: 0px;
+}
+
+.NavLink a :hover {
+  background-color: rgb(83, 152, 133);
+  color: white;
+  padding: 0.7rem;
+  border-radius: 5px;
+}
+
+@media (min-width: 1200px) {
+  .NavLink a {
+    font-size: 18px;
+  }
 }

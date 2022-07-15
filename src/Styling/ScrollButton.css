@@ -136,20 +136,27 @@ div#back-to-top.BackScrollButton {
   }
 }
 
+@media (min-width: 600px) {
+  .ScrollButtons a {
+    bottom: -10%;
+  }
+}
+
 @media (min-width: 1000px) {
   .ScrollButtons a {
     position: absolute;
-    left: 20%;
+    left: 50%;
     z-index: 2;
     display: inline-block;
     -webkit-transform: translate(0, -50%);
     transform: translate(0, -50%);
     transition: opacity 0.3s;
-    bottom: 20%;
+    bottom: 14%;
   }
   div#scrollButton2.ScrollButtons {
-    margin-top: -15%;
+    margin-top: -35%;
     margin-left: 48.25%;
+    display: none;
   }
   div#back-to-top.BackScrollButton {
     margin: 0px;

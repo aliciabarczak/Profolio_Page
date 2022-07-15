@@ -27,16 +27,22 @@
 }
 
 #CVBtn {
-  width: 210px;
   height: 50px;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
-  grid-area: contact_me;
-  margin: auto;
   text-align: center;
-  margin-top: 15%;
-  margin-left: 25%;
-  margin-bottom: 15%;
+  margin-left: 5%;
+  height: 45px;
+}
+
+#CVBtn a {
+  color: white;
+  text-decoration: none;
+  font-weight: 100;
+  margin: 5px;
+  margin-left: -5px;
+  padding: 0px;
+  font-size: 13px;
 }
 
 .contactBox {
@@ -61,12 +67,6 @@
 }
 
 .aos-init.aos-animate {
-  text-decoration: none;
-}
-
-.CVButton span {
-  margin: auto;
-  color: white;
   text-decoration: none;
 }
 
@@ -110,6 +110,11 @@
   p.email.aos-init.aos-animate {
     margin-left: 45%;
   }
+  #CVBtn {
+    margin-left: 45%;
+    width: 200px;
+    margin-top: 20px;
+  }
 }
 
 @media screen and (min-width: 600px) {
@@ -118,7 +123,10 @@
   }
   #CVBtn a {
     font-size: 18px;
-    margin: auto;
+    margin-left: -8px;
+  }
+  #CVBtn {
+    margin-left: 2%;
   }
 }
 
@@ -128,11 +136,11 @@
   }
   #CVBtn a {
     font-size: 20px;
-    margin: auto;
+    margin-left: -8px;
   }
   div.CVButton {
     padding-top: 0px;
-    margin-left: 35%;
+    margin: auto;
   }
 
   .contactBox p {
@@ -141,5 +149,8 @@
 
   #contact {
     padding-bottom: 0px;
+  }
+  #CVBtn {
+    margin-left: 19%;
   }
 }

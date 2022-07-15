@@ -207,12 +207,16 @@ div.content.aos-init.aos-animate {
 @media screen and (max-width: 600px) {
   .content.aos-init.aos-animate p {
     font-size: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
   }
 
   .content.aos-init.aos-animate h2 {
     font-size: 14px;
     margin: 0, auto;
     margin-left: -2px;
+    margin-top: -5px;
+    padding-left: 5px;
   }
   header {
     margin-bottom: 3rem;
@@ -313,66 +317,43 @@ div.content.aos-init.aos-animate {
     font-size: 28px;
   }
   .left {
-    margin-left: -1.25%;
+    margin-left: -0.5%;
   }
   .timeline::after {
-    margin-left: -1%;
-    height: 1250px;
+    margin-left: -0.7%;
+    height: 1540px;
   }
 
   #about {
     height: 1350px;
   }
-  #AboutMePage .decorated > span:after {
-    width: 550px;
-  }
-  .decorated > span:after {
-    width: 550px;
-  }
-
+  #AboutMePage .decorated > span:after,
+  .decorated > span:after,
   #contact .decorated > span:after {
     width: 550px;
   }
 }
 
-/* @media screen and (min-width: 700px) {
-  header {
-    font-size: 30px;
-  }
-  #AboutMePage .decorated > span:after {
-    margin: 0 135px;
-  }
-  .decorated > span:after {
-    margin: 0 165px;
-  }
-  #contact .decorated > span:after {
-    margin: 0 185px;
-  }
-
-  section.timeline {
-    margin-left: 25px;
-  }
-  .left::before {
-    right: -10px;
-  }
-
-  .left::after {
-    left: 347px;
-    width: 15px;
-    height: 15px;
-    top: 21px;
-  }
+@media screen and (min-width: 1200px) {
   .left {
-    left: -42px;
+    margin-left: -1%;
+  }
+  .right {
+    margin-left: -0%;
   }
 
-  .timeline h2 {
-    font-size: 24px;
+  #AboutMePage {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 0%;
   }
-  .timeline p {
-    font-size: 15px;
+  #AboutMePage .decorated > span:after,
+  .decorated > span:after,
+  #contact .decorated > span:after {
+    width: 650px;
   }
   .timeline::after {
-    height: 1500px;
+    margin-left: -1%;
+    height: 15px;
   }
-} */
+}

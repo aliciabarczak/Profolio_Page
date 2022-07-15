@@ -42,7 +42,7 @@
   width: 90%;
   height: 550px;
   border: 0.5px solid rgba(255, 255, 255, 0.09);
-  filter: brightness(14%);
+  filter: brightness(4%);
 }
 
 div.contents {
@@ -342,5 +342,37 @@ p.video-icon {
   #ProjectsPage {
     padding-left: 10%;
     padding-right: 10%;
+  }
+  .fadedImg2,
+  .fadedImg {
+    height: 700px;
+  }
+
+  .DooDuelsDemo {
+    width: 60%;
+    margin-top: 35%;
+    left: 20%;
+    display: flex;
+    flex-direction: column;
+  }
+  .closeIcon2 {
+    font-size: 34px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #ProjectsPage {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  #experience {
+    padding-bottom: 0%;
+  }
+  .DooDuelsDemo {
+    width: 50%;
+    margin-top: 22%;
+    left: 25%;
+    display: flex;
+    flex-direction: column;
   }
 }

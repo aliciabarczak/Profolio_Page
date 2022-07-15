@@ -59,6 +59,8 @@
 .nav-text a:hover {
   background-color: rgb(83, 152, 133);
   color: white;
+  padding: 0.7rem;
+  border-radius: 5px;
 }
 .nav-menu-items {
   width: 100%;
@@ -83,7 +85,8 @@ span {
 .menu-bars {
   color: rgba(255, 255, 255, 1);
   margin-left: 20px;
-  font-size: 40px;
+  font-size: 30px;
+  font-weight: 50px;
 }
 .closeIcon {
   color: white;
@@ -157,7 +160,7 @@ li.nav-text {
   }
 
   .menu-bars svg {
-    font-size: 60px;
+    font-size: 50px;
   }
 
   .nav-text a {
