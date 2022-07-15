@@ -10,7 +10,7 @@ export default function Contact() {
     <>
       <div id="ContactPage">
         <header>
-          <h1 class="decorated">
+          <h1 className="decorated title">
             <span>Contact</span>
           </h1>
         </header>

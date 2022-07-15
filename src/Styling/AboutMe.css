@@ -163,21 +163,6 @@ h1.decorated {
   font-size: 20px;
 }
 
-/* .left::after,
-.right::after {
-  left: 1px;
-}
-
-div.container.right,
-div.container.left {
-  padding-right: 0px;
-  width: 325px;
-}
-
-div.content.aos-init.aos-animate {
-  margin-right: 0px;
-} */
-
 @media screen and (max-width: 300px) {
   #homepage {
     width: 350px;
