@@ -51,7 +51,7 @@ h1.decorated {
   top: 50%;
   border-bottom: 0.5px solid;
   width: 50vw;
-  margin: 0 20px;
+  margin: 0 15%;
 }
 
 .timeline {
@@ -205,11 +205,14 @@ h1.decorated {
   }
   header {
     margin-bottom: 3rem;
-    margin-left: -0rem;
     color: white;
     font-family: "Poppins", sans-serif;
     font-weight: 100;
     font-style: italic;
+  }
+  .decorated > span:after {
+    width: 40vw;
+    margin: 0 20%;
   }
 
   /* Place the timelime to the left */
@@ -274,8 +277,8 @@ h1.decorated {
     width: 450px;
   }
 
-  #contact .decorated > span:after {
-    margin: 0 170%;
+  #contact span:after {
+    margin: 0 180%;
     width: 450px;
   }
 }

@@ -70,6 +70,10 @@
   text-decoration: none;
 }
 
+.contactHeader {
+  margin-left: 30px;
+}
+
 @media screen and (max-width: 300px) {
   #ContactPage,
   #AboutMe,
