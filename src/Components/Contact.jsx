@@ -11,8 +11,8 @@ export default function Contact() {
     <>
       <div id="ContactPage">
         <header>
-          <h1 className="decorated title">
-            <span>Contact</span>
+          <h1 className="decorated title" id="contact-title">
+            <span></span>
           </h1>
         </header>
         <div className="contactBox">

@@ -74,6 +74,13 @@
   margin-left: 30px;
 }
 
+h1#contact-title.decorated.title span::after {
+  width: 500px;
+  margin-bottom: -10%;
+  margin-left: auto;
+  overflow: visible;
+}
+
 @media screen and (max-width: 300px) {
   #ContactPage,
   #AboutMe,
@@ -157,4 +164,8 @@
   #CVBtn {
     margin-left: 19%;
   }
+}
+.contact-title {
+  margin: auto;
+  margin-left: 30%;
 }

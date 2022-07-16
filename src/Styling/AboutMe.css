@@ -342,6 +342,6 @@ h1.decorated {
   }
   .timeline::after {
     margin-left: -1%;
-    height: 15px;
+    height: 1450px;
   }
 }
