@@ -255,6 +255,10 @@ h1.decorated {
   .right {
     left: 0%;
   }
+
+  section#about {
+    margin-bottom: 250px;
+  }
 }
 
 @media screen and (min-width: 600px) {
