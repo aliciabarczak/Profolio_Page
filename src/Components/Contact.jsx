@@ -53,13 +53,15 @@ export default function Contact() {
             aliciabarczak1@gmail.com
           </p>
         </div>
-        <div className="contactBox">
+        <div className="contactBox" id="CV-Download">
           <img
             data-aos="zoom-in"
             src="https://i.ibb.co/6R4MnVW/document-2-48.png"
           />
           <div className="button_slide slide_left" id="CVBtn">
-            <a href="/Resources/test.pdf" download="CV">
+            <a
+              href="https://drive.google.com/u/0/uc?id=1y9rI-VtSOmkJBsnWfGQRaW5ucifQAG35&export=download"
+              download="CV">
               <span data-aos="zoom-in">Download my CV</span>
             </a>
             <br /> <br />

@@ -28,6 +28,11 @@ function BurgerNav({ sidebar, setSidebar }) {
       path: "#contact",
       cName: "nav-text",
     },
+    {
+      title: "CV",
+      path: "https://drive.google.com/u/0/uc?id=1y9rI-VtSOmkJBsnWfGQRaW5ucifQAG35&export=download",
+      cName: "nav-text",
+    },
   ];
 
   return (

@@ -22,6 +22,11 @@ export default function Nav() {
       path: "#contact",
       cName: "NavLink",
     },
+    {
+      title: "CV",
+      path: "https://drive.google.com/u/0/uc?id=1y9rI-VtSOmkJBsnWfGQRaW5ucifQAG35&export=download",
+      cName: "NavLink",
+    },
   ];
   return (
     <div id="Nav">
