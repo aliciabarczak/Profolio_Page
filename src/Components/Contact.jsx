@@ -60,7 +60,7 @@ export default function Contact() {
           />
           <div className="button_slide slide_left" id="CVBtn">
             <a
-              href="https://drive.google.com/u/0/uc?id=1y9rI-VtSOmkJBsnWfGQRaW5ucifQAG35&export=download"
+              href="https://drive.google.com/u/0/uc?id=1B1KWfDZQjlXM7b5dvkmXuOizsgaqRfzZ&export=download"
               download="CV">
               <span data-aos="zoom-in">Download my CV</span>
             </a>
