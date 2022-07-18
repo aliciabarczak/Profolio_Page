@@ -8,7 +8,7 @@
   border: 2px solid rgb(103, 192, 168);
   border-radius: 10px;
   padding: 0.5rem;
-  font-family: "Lucida Console", Monaco, monospace;
+  font-family: "Poppins", sans-serif;
   font-size: 15px;
   letter-spacing: 1px;
   cursor: pointer;
@@ -27,7 +27,6 @@
 }
 
 #CVBtn {
-  height: 50px;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   text-align: center;
@@ -108,11 +107,6 @@ h1#contact-title.decorated.title span::after {
     margin-left: 40%;
   }
 
-  .CVButton {
-    width: 100px;
-    margin-left: 5%;
-  }
-
   #CVBtn a {
     width: 100px;
     margin-left: 0%;
@@ -125,6 +119,7 @@ h1#contact-title.decorated.title span::after {
     margin-left: 45%;
     width: 200px;
     margin-top: 20px;
+    height: 45px;
   }
 }
 
@@ -138,6 +133,7 @@ h1#contact-title.decorated.title span::after {
   }
   #CVBtn {
     margin-left: 2%;
+    height: 49px;
   }
 }
 
@@ -171,5 +167,9 @@ h1#contact-title.decorated.title span::after {
 }
 
 div#CV-Download.contactBox {
-  padding-top: 40px;
+  padding-top: 7%;
+}
+
+div#CV-Download.contactBox span {
+  padding: 0.5rem;
 }
