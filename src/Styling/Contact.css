@@ -169,3 +169,7 @@ h1#contact-title.decorated.title span::after {
   margin: auto;
   margin-left: 30%;
 }
+
+div#CV-Download.contactBox {
+  padding-top: 40px;
+}
